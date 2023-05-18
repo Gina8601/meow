@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Averta-Bold";
+  src: url("../../public/assets/fonts/Averta-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("../../public/assets/fonts/Averta-Regular.ttf");
+}
+
+ion-tab-button {
+  --color-selected: #9f82ba;
+  --color: #ced2db;
+}
+
+#root {
+  --app-border-radius: 20px;
+}

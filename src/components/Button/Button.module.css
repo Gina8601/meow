@@ -1,0 +1,5 @@
+.button {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}

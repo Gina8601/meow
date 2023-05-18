@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.62 22.37">
+  <defs>
+    <style>
+      .d{fill:none;stroke:currentcolor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.4px;}</style>
+  </defs>
+  <path class="d"
+    d="M1.61,20.77l2.05-5.91L17.72,1.19s5.11-1.46,3.63,3.77l-13.07,13.55-6.66,2.26Z" />
+</svg>

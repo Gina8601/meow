@@ -1,0 +1,23 @@
+.addGroupContainer {
+  padding: 14px;
+  background-color: white;
+  border: 2px solid #9f82ba;
+  border-radius: var(--app-border-radius);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 21px;
+}
+
+.addGroupText {
+  font-weight: bold;
+  font-size: 16px;
+  color: #9f82ba;
+  font-family: "Averta";
+  margin-top: 12px;
+}

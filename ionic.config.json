@@ -1,0 +1,8 @@
+{
+  "name": "Mood tracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "ffcbb867"
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.5 27.5">
+  <defs>
+    <style>.cls-2{fill:#fff;stroke:currentcolor;stroke-miterlimit:10;}</style>
+  </defs>
+  <rect class="cls-1" width="27.5" height="27.5" rx="4"
+    transform="translate(27.5 27.5) rotate(-180)" />
+  <rect class="cls-2" x="11.32" y="4.55" width="4.87" height="18.4" rx="2.44"
+    transform="translate(27.5 27.5) rotate(-180)" />
+  <rect class="cls-2" x="18.98" y="14.56" width="4.87" height="8.4" rx="2.44"
+    transform="translate(42.82 37.51) rotate(-180)" />
+  <rect class="cls-2" x="3.7" y="9.2" width="4.87" height="13.75" rx="2.44"
+    transform="translate(12.27 32.16) rotate(-180)" />
+</svg>

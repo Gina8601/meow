@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 18px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  color: black;
+}
+
+.weekdays {
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.weeks {
+  justify-content: flex-start;
+  /* gap: <gap-value>; */
+}
+
+.daysContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 4px;
+}
+
+.dayContainer {
+  max-width: 47px;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  /* height: 50px; */
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  color: #79808a;
+  font-family: "Averta";
+}
+
+.weekdays,
+.week {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weekday {
+  font-weight: bold;
+  font-family: "Averta";
+  color: #79808a;
+}
+
+.dayTitle {
+  text-align: center;
+  margin: 9px 0 12px 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: #79808a;
+  font-family: "Averta";
+}
+
+.today {
+  color: #9f82ba;
+}
+
+.buttonContainer {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.dayButton {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.modalButtonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cancelButton {
+  background-color: lightgray;
+  color: gray;
+}
+
+.submitButton {
+  background-color: rgb(82, 197, 82);
+  color: white;
+}
+
+ion-modal {
+  --height: auto;
+}
+
+.dayImage {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}

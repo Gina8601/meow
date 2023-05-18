@@ -1,0 +1,27 @@
+.activity {
+  display: flex;
+  padding: 5px 12px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  color: #7b8795;
+  font-weight: bold;
+  font-family: "Averta";
+  border: 2px solid;
+  background-color: transparent;
+  border-color: lightgray;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: border-color 0.3s, background-color 0.3s, transform 0.5s,
+    color 0.3s;
+}
+
+.activity:active {
+  transform: scale(0.96);
+}
+
+.selected {
+  border-color: #9f82ba;
+  background-color: #9f82ba;
+  color: white;
+}

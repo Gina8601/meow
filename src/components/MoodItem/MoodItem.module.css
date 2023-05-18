@@ -1,0 +1,25 @@
+.mood {
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 60px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  border: 2px solid;
+  border-color: lightgray;
+  border-radius: calc(100% / 3);
+  padding: 7px;
+  transform: scale(1);
+  transition: border-color 0.3s, background-color 0.3s, transform 0.5s;
+}
+
+.mood:active {
+  transform: scale(0.96);
+}
+
+.selected {
+  border-color: #9f82ba;
+  background-color: #9f82ba;
+}
